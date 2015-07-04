@@ -6510,5 +6510,5 @@ proc ::tkcon::AtSource {} {
     }
 }
 tkcon::AtSource
-
+::tkcon::Init {*}$argv
 package provide tkcon $::tkcon::VERSION
